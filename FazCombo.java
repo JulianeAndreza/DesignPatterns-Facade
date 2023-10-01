@@ -8,8 +8,8 @@ public class Combo extends Produto
     private int tipo;
 
 
-    public void FazerCombo(int tipo) {
-        tipo = tipo;
+    public void FazerCombo(int tipo, int i) {
+        i;
         if (tipo == 1) {
          
             burguer.setGramas(250);
